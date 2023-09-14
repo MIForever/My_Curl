@@ -17,7 +17,7 @@ After creating the target you type "my_curl" to command prompt.
 After that you type a web pages link which you want to get.
 Subsequently, the full html content of the page will show up.
 ```
-./my_project argument1 argument2
+./my_curl "URL of a website"
 ```
 
 ### The Core Team
