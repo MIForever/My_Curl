@@ -5,16 +5,16 @@
 The task is to create an implementation of the curl command in Linux.
 
 ## Description
-my_curl is actually as simple program that prints out html content of a website.
-There is a bug that server is not responding as much as we requested in read function in the half of the loop, 
+my_curl is actually a simple program that prints out HTML content of a website.
+There is a bug in that server is not responding as much as we requested in the read function in the half of the loop, 
 even though there is a rest of the content and in the next loop it is responding as we requested (which is 1024 bytes).
 
 ## Installation
 There is a Makefile created to make things easier. You just simply "make" it after downloading or pulling.
 
 ## Usage
-After creating the target you type "my_curl" to command prompt.
-After that you type a web pages link which you want to get.
+After creating the target you type "my_curl" to the command prompt.
+After that, you type a web page link that you want to get.
 Subsequently, the full html content of the page will show up.
 ```
 ./my_curl <URL>
