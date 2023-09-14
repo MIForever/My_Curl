@@ -5,7 +5,7 @@
 The task is to create an implementation of the curl command in Linux.
 
 ## Description
-my_curl is actually a simple program that prints out HTML content of a website.
+my_curl is actually a simple program that prints out the HTML content of a website.
 There is a bug in that server is not responding as much as we requested in the read function in the half of the loop, 
 even though there is a rest of the content and in the next loop it is responding as we requested (which is 1024 bytes).
 
